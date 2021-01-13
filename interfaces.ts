@@ -29,14 +29,14 @@ interface DLC extends Game {
   newContent: string[]
 }
 
-const leftbehind: DLC = {
-  title: "The Last of Us - Left Behind",
-  description: "You play as Ellie before the original game",
-  genre: "Action",
-  platform: ["PS4"],
-  originalGame: tlou,
-  newContent: ["3 hours story", "new characters"]
-}
+// const leftbehind: DLC = {
+//   title: "The Last of Us - Left Behind",
+//   description: "You play as Ellie before the original game",
+//   genre: "Action",
+//   platform: ["PS4"],
+//   originalGame: tlou,
+//   newContent: ["3 hours story", "new characters"]
+// }
 
 class CreateGame implements Game {
   title: string
